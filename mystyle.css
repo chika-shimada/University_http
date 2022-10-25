@@ -1,0 +1,18 @@
+h1 /*h1要素*/
+  {
+    font-size: 3em;/*em=fontsize*3*/
+    text-align: center;/*中央寄せ*/
+    text-shadow: 5px -5px 4px gray;/*文字に影 影をx方向に5pxずらす略 影の色*/
+  }
+
+p
+  {
+    text-indent:1em;/*一行目のインデント幅を1文字に*/
+    border: solid 1px black;/*solid(実践)で太さ1pxで、黒色(black)で枠線*/
+    padding: 10px; /*境界線から内側に上下左右に10pxの空白をつくる*/
+  }
+
+  .txtLarge
+    {
+      font-size: 3em;
+    }

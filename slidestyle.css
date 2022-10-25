@@ -1,0 +1,28 @@
+
+h1
+{
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 8px 7px 7px Lavender;
+}
+
+.header
+  {
+    background-color: #1F1A4B;
+    color: white;
+    width: 100%;
+  }
+
+.article
+  {
+    background-color: #F5CB13;
+    color: black;
+    width: 100%;
+  }
+
+.footer
+  {
+    background-color: #E3DEF1;
+    color: black;
+    width: 100%;
+  }
