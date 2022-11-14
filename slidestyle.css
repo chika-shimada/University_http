@@ -65,6 +65,20 @@ h1
     margin-right: 50px;
     margin-bottom: 50px;
   }
+.articleFormUl
+	{
+	width: 80%;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	list-style: none;
+	}
+.submitbtn
+	{
+	width: 150px;
+	height: 30px;
+	border: solid 1px gray;
+	}
 .txtKeyword
   {
     color: skyblue;
