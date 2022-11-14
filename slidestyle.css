@@ -1,10 +1,15 @@
+*
+ {
+    padding: 0px;
+    margin: 0px;
+  }
 
 h1
-{
-  font-size: 3em;
-  text-align: center;
-  text-shadow: 8px 7px 7px Lavender;
-}
+  {
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 8px 7px 7px Lavender;
+  }
 
 .header
   {
@@ -12,12 +17,81 @@ h1
     color: white;
     width: 100%;
   }
+.headerImg
+  {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+.partlarge
+  {
+    font-size: 1.2em;
+    color: #FFFFFF;
+    background-color: navy;
+  }
+.navigation /* ナビゲーションメニュー */
+  {
+    color: midnightblue;
+    background-color: Lavender;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+  }
+.navigationLi /* 列挙型箇条書きを横並び表示に */
+  {
+    display: inline-block;
+    padding: 20px;
+  }
+
 
 .article
   {
-    background-color: #F5CB13;
-    color: black;
+    background-color: #1F1A4B;
+    color: white;
     width: 100%;
+    height: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+.articleH2
+  {
+    font-size: 1.5em;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+.articleP
+  {
+    width: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+.txtKeyword
+  {
+    color: skyblue;
+    background-color: transparent;
+  }
+.articleTable
+  {
+    width: 80%;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+    border:solid 1px black;
+  }
+.articleTableTh
+  {
+    padding: 10px;
+    border:solid 1px Lavender;
+  }
+.articleTableTd
+  {
+    padding: 10px;
+    border:solid 1px Lavender;
+  }
+.articleTableCaption
+  {
+    text-decoration: underline;
+    font-weight: bold;
   }
 
 .footer
@@ -25,4 +99,11 @@ h1
     background-color: #E3DEF1;
     color: black;
     width: 100%;
+  }
+.footerUL
+  {
+    text-align: right;
+    list-style: none;
+    font-size: smaller;
+    padding: 5px;
   }
