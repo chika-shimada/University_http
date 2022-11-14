@@ -2,8 +2,9 @@
 <html lang=ja dir="ltr">
   <head>
     <link rel="stylesheet" href="./slidestyle.css">
+    <script src="./quizscript.js"></script>
     <meta charset="utf-8">
-    <title>Quiz for PCR TEST</title>
+    <title>情報基礎B第6回課題</title>
   </head>
   <body>
 
@@ -23,7 +24,7 @@
 
     <div class="article">
       <h2 class="articleH2">Quiz for PCR TEST</h2>
-		<form>
+		<form id="quizForm">
 		<p class="articleP">[問1](5点)<br>夏目漱石の“吾輩は猫である”に登場する猫の名前は？</p>
 		<ul class="articleFormUl">
 			<li>
@@ -55,8 +56,8 @@
 				<label><input type="radio" name="radios2" value="q1choice4">三毛猫</label>
 			</li>
 		</ul>
-		<p class="articleP"><input class="submitbtn" type="button" value="解答送信"></p>
-		<p class="articleP">ここに結果を表示</p>
+		<p class="articleP"><input class="submitbtn" type="button" value="解答送信" onclick="pressedBtn();"></p>
+		<p class="articleP" id="quizReport">ここに結果を表示</p>
 		</form>
     </div>
 
